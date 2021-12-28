@@ -1,0 +1,62 @@
+/* animate__fadeInUp */
+body{
+    background-color: rgb(204, 197, 197);
+}
+.slick-prev {
+    left: -40px;
+}
+
+.slick-next {
+    right: -40px;
+}
+.slick-prev, .slick-next {
+
+    width:35px;
+    height: 30px;
+    padding: 0;
+    color: transparent;
+    background-color: rgb(46, 46, 70);
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    outline: none;
+    background:rgb(201, 21, 177);
+}
+
+/* ============== */
+.slick-prev:before, .slick-next:before {
+    font-family: 'Font Awesome 5 Free';
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.slick-prev:before{
+  content:'f100' ;
+}
+.slick-next:before{
+  content:'f101' ;
+}
+
+
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'font awesome 5 free';
+    font-size:28px;
+    font-weight: 600;
+
+}
+
+.slick-prev:before
+{
+    content: '←';
+}
+.slick-next:before
+{
+    content: '→';
+}
